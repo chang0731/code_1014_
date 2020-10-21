@@ -55,6 +55,7 @@ basic.forever(function () {
                 basic.pause(200)
                 led.plot(0, 0)
                 basic.pause(200)
+                basic.clearScreen()
             }
         }
     }
